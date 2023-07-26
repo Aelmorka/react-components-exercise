@@ -1,6 +1,14 @@
 import Item from "./Item";
-import React, { Component } from 'react';
+import React from 'react';
 
-const Checkout = () => {}
+const Checkout = () => {
+    return (
+        <div>
+            <div>Checkout</div>
+            <Item num="1" type="chekout"/>
+            <Item num="2" type="checkout"/>
+        </div>
+    )
+}
 
 export default Checkout

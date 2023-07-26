@@ -1,8 +1,12 @@
 import Spam from "./Spam";
-import React, { Component } from 'react';
+import React from 'react';
 
 
-const Spamalot =()=>{}
+const Spamalot =({num})=>{
+    let lots = []
+    for (let i = 0; i < num; i++) {lots.push(<Spam key={i}/>)}
+    return lots
+}
 
 export default Spamalot
 
